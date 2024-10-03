@@ -32,3 +32,18 @@ body{
  .userflash {
    background-color: green;
  }
+
+ @media (max-width: 600px) {
+   body {
+       text-align: center; /* Center text on mobile */
+   }
+
+   .btn {
+       height: 150px; /* Smaller button height */
+       width: 150px; /* Smaller button width */
+       margin: 1rem; /* Reduce margin */
+   }
+
+   .btn-container {
+       flex-direction: row-reverse; /* Stack buttons vertically */
+   }
