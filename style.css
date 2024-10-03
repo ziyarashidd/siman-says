@@ -45,5 +45,5 @@ body{
    }
 
    .btn-container {
-       flex-direction: row-reverse; /* Stack buttons vertically */
+       flex-direction: row; /* Stack buttons vertically */
    }
